@@ -155,6 +155,7 @@ nav {
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+    z-index: 1000000;
 }
 
 
@@ -204,6 +205,9 @@ a:not(.exclude):hover {
 
 #hamburger-nav {
     display: none;
+    align-items: center;
+    flex-direction: row;
+    height: 65px;
 }
 
 .hamburger-menu {
