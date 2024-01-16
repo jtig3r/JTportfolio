@@ -150,13 +150,30 @@ nav, .nav-links {
 
 nav {
     justify-content: space-between;
-    align-items: center;
-    height: 73px;
+    flex-direction: column;
 
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 }
+
+
+.nav__container { /* remove this and .nav__decoration and move content to nav to reverse.*/
+    display: flex;
+    height: 65px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav__decoration {
+    content: "";
+    display: block;
+    height: 0.5px;
+  width: 100%;
+    background: linear-gradient(to right, transparent 0%, #504D4D 50%, transparent 100%);
+}
+
 
 .nav-links {
     gap: 2rem;
