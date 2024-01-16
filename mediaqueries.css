@@ -5,4 +5,10 @@
     #hamburger-nav {
         display: flex;
     }
+
+    /* Highlights */
+
+    .pic__mockup {
+        width: 550px;
+    }
 }
