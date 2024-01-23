@@ -5,12 +5,17 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #0E0F13;
+    
 }
 
 body {
     font-family: 'League Spartan', sans-serif;
-    padding: 0 122px 0 122px;
+    padding: 0 0px;
+    background-color: #0E0F13;
+}
+
+section {
+    padding-inline: 122px;
 }
 
 html {
@@ -151,6 +156,8 @@ nav, .nav-links {
 nav {
     justify-content: space-between;
     flex-direction: column;
+    padding: 0 122px;
+    background-color: #0E0F13;
 
     position: -webkit-sticky;
 	position: sticky;
@@ -211,7 +218,7 @@ a:not(.exclude):hover {
 }
 
 .hamburger-menu {
-    background-color: #FFFFFF;
+    background-color: #0E0F13;
     position: relative;
     display: inline-block;
 }
@@ -300,7 +307,6 @@ section {
 }
 
 .section_container {
-    border: 1px solid green;
 }
 
 /* HERO SECTION */
@@ -341,7 +347,7 @@ section {
 }
 
 .section__mockup__container__single {
-    
+    margin-bottom: 100px;
 }
 
 .highlights__pic_container {
@@ -354,7 +360,13 @@ section {
     align-items: center;
     border-radius: 27px;
     margin-bottom: 20px;
+    overflow: hidden;
 
+}
+
+.project__dbt{
+    background-color: #F1F4FF;
+    background-image: linear-gradient(#F1F4FF, #FFF2F3);
 }
 
 .highlights__pic_container a {
@@ -397,6 +409,10 @@ section {
 
 /* EXPERIENCE SECTION */
 
+#experiences {
+    display: none;
+}
+
 .experiences__container__double {
     display: flex;
     flex-direction: row;
@@ -433,6 +449,7 @@ footer {
     text-align: center;
     justify-content: space-between;
     padding-bottom: 1rem;
+    padding-inline: 122px;
 }
 
 .footer__section {

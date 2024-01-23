@@ -1,3 +1,6 @@
+@media screen and (max-width: 1400px){
+}
+
 @media screen and (max-width: 1200px){
     #desktop-nav {
         display: none;
@@ -11,4 +14,97 @@
     .pic__mockup {
         width: 550px;
     }
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px)  {
+    section, nav, footer{
+        padding-inline: 40px;
+    }
+
+    #hero {
+        height: 50vh;
+    }
+
+    footer {
+        margin-top: 5vh;
+    }
+
+    #highlights {
+        padding-bottom: 0;
+    }
+
+    .highlights__text_link {
+        margin-top: 0px;
+    }
+
+    .section__mockup__container__single {
+        margin-bottom: 100px;
+    }
+
+    .pic__mockup {
+        width: 450px;
+    }
+
+    /* specific project pages */
+
+    #project-overview {
+        padding: 0 100px;
+        min-height: 85dvh;
+    }
+
+    .test {
+    }
+
+    }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    section, nav, footer{
+        padding-inline: 16px;
+    }
+
+    .project__disclaimer {
+        margin-bottom: 10px;
+    }
+
+    #hero {
+    }
+
+    .section__pic-container {
+        display: none;
+    }
+
+    .section__text {
+        
+    }
+
+    .pic__mockup {
+        width: 90%;
+    }
+
+
+
+    /* specific project pages */
+
+    
+
+    #project-overview {
+        padding-inline: 16px;
+    }
+
+    .project__text__description {
+        max-width: 100%;
+    }
+
+    .project__tags__container {
+        max-width: 100%;
+    }
+
+
+
+
 }
