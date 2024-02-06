@@ -43,6 +43,15 @@ section {
     color: #F5D2D3;
 }
 
+a .pic_mockup_projects:hover {
+    transform: scale(1.03);
+}
+
+.pic_mockup_projects {
+    transition: all .5s ease; 
+}
+
+
 /* STORYAI */
 
 #project-overview {
@@ -91,4 +100,10 @@ section {
     width: 100%;
     line-height: 115%;
     font-size: 1.25rem;
+}
+
+/* PROJECTS */
+
+.highlights__text_changer_projects {
+    margin-top: 10px;
 }

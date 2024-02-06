@@ -40,6 +40,20 @@
         margin-top: 0px;
     }
 
+    .experiences__container__double {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .experiences__container_left, .experiences__container_right {
+        width: 100%;
+    }
+
+    .experiences__container_left {
+        margin-bottom: 40px;
+    }
+
     .section__mockup__container__single {
         margin-bottom: 100px;
     }
