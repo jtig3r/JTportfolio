@@ -14,6 +14,17 @@
     .pic__mockup {
         width: 550px;
     }
+
+    .about_me_gurra {
+        max-width: 340px;
+    }
+    
+    .about_me_cookies {
+        max-width: 340px;
+        margin-top: 15px;
+        margin-right: 0;
+        align-self: flex-start;
+    }
 }
 
 
@@ -151,11 +162,13 @@
         
     }
 
-    #manifesto {
-        display: flex;
+    .manifesto__columns{
         flex-direction: column;
         margin-top: 3vh;
-        align-items: center;
+    }
+
+    .manifesto__column{
+        width: 100%;
     }
 
     .manifesto__column p {
@@ -163,6 +176,12 @@
         align-self: center;
         margin-top: 10px;
         line-height: 120%;
+    }
+
+    .about_me__container_left_images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     /* specific project pages */
