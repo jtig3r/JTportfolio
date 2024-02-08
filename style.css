@@ -226,7 +226,7 @@ a:not(.exclude):hover {
     background-color: #0E0F13;
     position: relative;
     display: inline-block;
-}
+}   
 
 .hamburger-icon {
     display: flex;
@@ -253,6 +253,7 @@ a:not(.exclude):hover {
     max-height: 0;
     overflow: hidden;
     transition: all .3s ease-in-out;
+    background-color: #0E0F13;
 }
 
 .menu-links a {
