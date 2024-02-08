@@ -14,6 +14,10 @@ body {
     background-color: #0E0F13;
 }
 
+.important__exclude {
+    display: none;
+}
+
 section {
     padding-inline: 122px;
 }
@@ -337,8 +341,18 @@ section {
 
 .section__pic-container {
     display: flex;
-    width: 166px;
+    flex-direction: column;
+    /*width: 166px; */
+    width: 200px;
     height: 219px;
+}
+
+.hero__text_construction {
+    margin-top: 20px;
+}
+
+.hero__text_construction_mobile {
+    display: none;
 }
 
 /* HIGHLIGHTS SECTION */
@@ -364,9 +378,14 @@ section {
 
 }
 
+.project__recipeasy{
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#FCFCFC, #F1E4E4);
+}
+
 .project__dbt{
-    background-color: #F1F4FF;
-    background-image: linear-gradient(#F1F4FF, #FFF2F3);
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#FCFCFC, #D4E5E9);
 }
 
 .highlights__pic_container a {

@@ -86,10 +86,26 @@
     }
 
     #hero {
+        min-height: 60vh;
     }
 
     .section__pic-container {
         display: none;
+    }
+
+    .hero__text_construction_mobile {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .hero__text_construction_mobile p {
+
+    }
+
+    .construction_mobile_avatar {
+        max-width: 50px;
+        margin-bottom: 10px;
     }
 
     .section__text {

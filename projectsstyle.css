@@ -92,8 +92,10 @@ a .pic_mockup_projects:hover {
 /* DBT */
 
 .dbt {
-    color: #F5D2D3;
+    color: #D4E5E9;
 }
+
+.pro
 
 .project__text__description_further {
     margin-top: 50px;
@@ -102,8 +104,18 @@ a .pic_mockup_projects:hover {
     font-size: 1.25rem;
 }
 
+/* RECIPEASY */
+
+.recipeasy {
+    color: #F1E4E4;
+}
+
 /* PROJECTS */
 
 .highlights__text_changer_projects {
     margin-top: 10px;
+}
+
+.projects__text_title {
+    
 }
