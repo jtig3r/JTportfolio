@@ -40,8 +40,9 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.875rem;
     font-weight: 400;
+    margin-bottom: 25px;
 }
 
 h3 {
@@ -491,7 +492,7 @@ footer {
 
 .footer__pic__contact_icons {
     margin: 15px 0;
-    width: 120px;
+    width: 215px;
     display: flex;
     justify-content: space-between;
 }
@@ -515,10 +516,80 @@ footer .nav-links li {
 }
 
 
+/* ABOUT */
 
+#about_me{
+    min-height: 85dvh;
+}
 
+.about_me__container {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
+.about_me__container_left, .about_me__container_right {
+    width: 50%;
+}
 
+.about_me__text {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.about_me__container_right {
+    display: flex;
+    justify-content: center;
+}
+
+.about_me_profilePicture {
+    width: 340px;
+    height: 340px;
+}
+
+#manifesto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.manifesto__column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.manifesto__column p {
+    max-width: 240px;
+    align-self: center;
+    margin-top: 10px;
+    line-height: 120%;
+}
+
+/* CONTACT */
+
+#contact {
+    min-height: 92dvh;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__container p {
+    max-width: 320px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 115%;
+}
 
 
 
