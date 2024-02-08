@@ -543,7 +543,7 @@ footer .nav-links li {
 .about_me__container_right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .about_me_profilePicture {
@@ -587,6 +587,10 @@ footer .nav-links li {
 .about_me__container_left_images {
     display: flex;
     flex-direction: column;
+}
+
+.about_me__container_right_text {
+    align-items: start;
 }
 
 .about_me_gurra {
