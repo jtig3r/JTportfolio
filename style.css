@@ -49,6 +49,20 @@ h3 {
     font-size: 1.25rem;
     font-weight: 400;
 }
+
+.about_me__resume_download {
+    background-color: #1F1E1F;
+    border-radius: 6px;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
 /* TRANSITIONS */
 
 nav ul li a,
