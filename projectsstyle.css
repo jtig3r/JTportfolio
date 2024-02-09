@@ -39,6 +39,10 @@ section {
     text-align: center;
 }
 
+.project__disclaimer_recipeasy {
+    max-width: 100%;
+}
+
 .project__text__description_further a {
     color: #F5D2D3;
 }
