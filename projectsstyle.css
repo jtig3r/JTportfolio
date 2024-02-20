@@ -43,6 +43,12 @@ section {
     max-width: 100%;
 }
 
+.project__text__description_further {
+   margin-top: 20px;
+   font-size: 1.125rem;
+   max-width: 1000%;
+}
+
 .project__text__description_further a {
     color: #F5D2D3;
 }

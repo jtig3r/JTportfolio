@@ -196,7 +196,7 @@
         padding-inline: 16px;
     }
 
-    .project__text__description {
+    .project__text__description,  .project__text__description_further{
         max-width: 100%;
     }
 
