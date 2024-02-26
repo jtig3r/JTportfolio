@@ -98,6 +98,17 @@ a .pic_mockup_projects:hover {
     width: 100%;
 }
 
+.project__centered_video_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.storyAI__demo {
+    width: 300px;
+    border-radius: 20px;
+}
+
 /* DBT */
 
 .dbt {
