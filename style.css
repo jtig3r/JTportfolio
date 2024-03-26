@@ -136,6 +136,44 @@ nav .logo a,
     width: auto;
   }
 
+  /**/
+  .header__text_changer {
+    transition: all 500ms ease-in-out;
+  }
+
+  .logo {
+    overflow: hidden;
+  }
+  .header__text_old,
+  .header__text_new {
+    display: block;
+    overflow: hidden;
+    transition: all 500ms linear;
+  }
+  .header__text_old {
+    height: auto;
+    opacity: 1;
+    width: auto;
+  }
+  .header__text_new {
+    color: #fff;
+    height: 0;
+    opacity: 0;
+    width: 0;
+    color:#ffffff;
+  }
+  .header__text_changer:hover .header__text_old {
+    height: 0px;
+    opacity: 0;
+    width: 0px;
+  }
+  .header__text_changer:hover .header__text_new {
+    height: auto;
+    opacity: 1;
+    width: auto;
+  }
+  
+
   /* footer contact icnos */
 
   .footer__contact_icon:hover {
