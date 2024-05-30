@@ -61,6 +61,10 @@ a .pic_mockup_projects:hover {
     transition: all .5s ease; 
 }
 
+.about-the-project {
+    
+}
+
 /* STORYAI */
 
 #project-overview {
@@ -130,6 +134,92 @@ a .pic_mockup_projects:hover {
     color: #F1E4E4;
 }
 
+/* STAYSYNC */
+
+.staysync {
+    color: #93A0C4;
+}
+
+.award__container {
+    background-color: #2A2A2A;
+    width: 100%;
+    border-radius: 20px;
+    min-height: 72px;
+    justify-content: center;
+    border: 1px solid #93A0C4;
+    margin: 36px 20px 0 20px;
+    
+}
+
+.award_text {
+    margin-inline: 20px;
+}
+
+.process{
+    width: 100%;
+    margin-top: 40px;
+    justify-items: center;
+
+}
+
+.staysync_mscw{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    max-width: 700px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.staysync_image_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.staysync_lofi{
+    max-width: 400px;
+    max-width: 40%; 
+}
+
+.creating-an-identity{
+    margin-top: 50px;
+    border-radius: 27px;
+    background-color: #2A2A2A;
+    padding: 44px;
+}
+
+.staysync_logo_creation{
+    max-width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.staysync_color_palette_small{
+    max-width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.staysync_graphic_profile{
+    max-width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+}
+
+.Development{
+    margin-top: 40px;
+}
+
+.in_text_heading{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
 /* PROJECTS */
 
 .highlights__text_changer_projects {

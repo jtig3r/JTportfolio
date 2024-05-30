@@ -432,6 +432,11 @@ section {
 
 }
 
+.project__staysync{
+    background-color: #EAECF3;
+    background-image: linear-gradient(#FCFCFC, #919FC3);
+}
+
 .project__recipeasy{
     background-color: #FCFCFC;
     background-image: linear-gradient(#FCFCFC, #F1E4E4);

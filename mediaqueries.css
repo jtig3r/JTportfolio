@@ -94,6 +94,22 @@
         min-height: 85dvh;
     }
 
+    /*Staysync*/
+    .staysync_image_container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .staysync_lofi{
+        max-width: 400px;
+        max-width: 60%; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
     .test {
     }
 
@@ -208,6 +224,10 @@
         width: 200px;
     }
 
+    /*staysync*/
+    .staysync_lofi{
+        max-width: 90%; 
+    }
 
 
 
