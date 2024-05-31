@@ -70,6 +70,7 @@ nav ul li a:after,
 nav ul li a:before,
 nav .logo a,
 .pic__mockup,
+.pic__certificate,
 .highlights__text_link,
 .footer__contact_icon {
   transition: all .5s ease; 
@@ -359,7 +360,7 @@ a:not(.exclude):hover {
 /* SECTIONS */
 
 section {
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -488,9 +489,9 @@ section {
 /* EXPERIENCE SECTION */
 
 #experiences {
-    display: none;
-    /*display: flex;*/
-    border: 1px solid red;
+    /*display: none;*/
+    display: flex;
+    /*border: 1px solid red;*/
     justify-content: center;
 }
 
@@ -499,25 +500,52 @@ section {
 }
 
 .experiences__container__double {
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .experiences__container_left, .experiences__container_right {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     width: 48%;
+    overflow: hidden;
 }
 
 .experiences__pic__container {
     height: 371px;
     background-color: #302A2A;
     background-image: linear-gradient(#595959, #302A2A);
-    border-radius: 27px;
-    margin-bottom: 20px;
-    overflow: hidden;
     
+    margin-bottom: 20px;
+    
+    flex-direction: column;
+}
+
+.experiences__container_left{
+    
+}
+.double_container_text{
+    margin-top: 20px;
+}
+
+.left_img_container{
+    overflow: hidden; 
+    border-radius: 27px;
+    background-color: #27303A;
+    background-image: linear-gradient(#445263, #27303A);
+}
+.pic__certificate{
+    margin-top: 5px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.pic__certificate:hover {
+    transform: scale(1.05)
 }
 
 /* FOOTER */
