@@ -49,7 +49,7 @@ section {
    max-width: 1000%;
 }
 
-.project__text__description_further a {
+.link {
     color: #F5D2D3;
 }
 
@@ -155,6 +155,11 @@ a .pic_mockup_projects:hover {
     margin-inline: 20px;
 }
 
+.certificate_link{
+    color: #93A0C4;
+    text-decoration: underline;
+}
+
 .process{
     width: 100%;
     margin-top: 40px;
@@ -219,6 +224,19 @@ a .pic_mockup_projects:hover {
 .in_text_heading{
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.Certificate{
+ margin-top: 100px;
+}
+
+.staysync_certificate{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    margin-top: 40px;
 }
 /* PROJECTS */
 
