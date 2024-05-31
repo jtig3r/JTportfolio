@@ -53,7 +53,7 @@
     }
 
     .experiences__container__double {
-        border: 1px solid salmon;
+        /*border: 1px solid salmon;*/
         display: flex;
         flex-direction: column;
     }
