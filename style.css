@@ -639,6 +639,7 @@ footer .nav-links li {
 #manifesto {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .manifesto__text_h1 {
@@ -667,6 +668,58 @@ footer .nav-links li {
     align-self: center;
     margin-top: 10px;
     line-height: 120%;
+}
+
+#Skills{
+    margin-top: 100px;
+}
+
+.skills__container{
+    flex-direction: column;
+}
+
+.skills__text {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 150%;
+    max-width: 800px;
+}
+
+.skills__tag_container_design, .skills__tag_container_development {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-top: 60px;
+}
+
+
+
+.skills_tag{
+    background-color: #1E1E1F;
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.skills__purple{ color: #A296D5;}
+.skills__blue{ color: #7C9BCB;}
+.skills__green{ color: #86C2AE;}
+.skills__turquoise{ color: #96D5C6;}
+.skills__powder{ color: #CAC9CF;}
+.skills__pink{ color: #D096D5;}
+.skills__orange{ color: #D5BC96;}
+.skills__yellow{ color: #D7D3B3;}
+.skills__salmon{ color: #DDA8A8;}
+
+
+
+#about_mee_more{
+    margin-top: 50px;
 }
 
 .about_me__container_left_images {
