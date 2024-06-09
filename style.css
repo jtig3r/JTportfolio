@@ -253,6 +253,18 @@ a {
     text-decoration-color: aqua; /*tut sa white*/
 }
 
+/*studio colors and style for nav*/
+.studio_element{
+    display: flex;
+    flex-direction: row;
+}
+
+.studio__purple{ color: #A296D5;} 
+.studio__blue{ color: #7C9BCB;}
+.studio__green{ color: #86C2AE;}
+.studio__pink{ color: #D096D5;}
+.studio__yellow{ color: #D7D3B3;}
+
 a:not(.exclude):hover {
     color: #979191;
 }

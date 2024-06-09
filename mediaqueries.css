@@ -110,8 +110,21 @@
         margin-bottom: 20px;
     }
 
-    .test {
+    /*STUDIO*/
+    .studio__projects_feed{
+        max-width: 100%;
     }
+    
+    .studio__project_container{
+        border-radius: 20px;
+    }
+
+    .studio__projects_feed{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
     }
 
@@ -232,6 +245,11 @@
         max-width: 90%; 
     }
 
+    /*studio*/
 
-
+    .studio__projects_feed{
+        margin-top: 40px;
+        
+        
+    }
 }

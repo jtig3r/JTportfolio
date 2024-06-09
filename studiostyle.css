@@ -1,0 +1,84 @@
+/* GENERAL */
+body {
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* ANIMATIONS */
+
+/* PAGE STYLES */
+
+
+#container__studio{
+    min-height: 92dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__page_title{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.studio__title_container{
+    display: flex;
+    justify-content: center;
+}
+
+.studio_element{
+    display: flex;
+    flex-direction: row;
+}
+
+.studio__purple{ color: #A296D5;}
+.studio__blue{ color: #7C9BCB;}
+.studio__green{ color: #86C2AE;}
+.studio__pink{ color: #D096D5;}
+.studio__yellow{ color: #D7D3B3;}
+
+.studio__page_description{
+    margin-top: 20px;
+   font-size: 1.25rem;
+   max-width: 600px;
+}
+
+.studio__projects_feed{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*border: 1px solid green;*/
+    max-width: 80%;
+    
+}
+
+.studio__project_container{
+    border-radius: 27px;
+}
+
+.container__watchOS{
+    background-color: #BDBDF2;
+    height: min-content;
+    
+}
+
+.watchOStest{
+    background-color: #BDBDF2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.studio__watchOS_img{
+    max-width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
